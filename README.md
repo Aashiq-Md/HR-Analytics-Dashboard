@@ -1,80 +1,207 @@
-# HR-Analytics-Dashboard
-📊 IBM HR Data Analytics Dashboard
-A comprehensive Human Resources analytics dashboard built to monitor workforce metrics, attrition trends, and departmental headcount distribution across an organization of 1,470 employees.
-Show Image
+╔══════════════════════════════════════════════════════════════╗
+         📊 IBM HR ANALYTICS DASHBOARD
+         Workforce Intelligence & Attrition Insights
+╚══════════════════════════════════════════════════════════════╝
 
-📌 Overview
-This dashboard provides HR teams and business leaders with a real-time, interactive view of key workforce indicators — enabling data-driven decisions around retention, hiring, and resource allocation.
+An interactive Power BI dashboard that transforms raw HR data
+into executive-level workforce insights — covering attrition,
+headcount, departmental performance, and workforce distribution.
 
-🔢 Key Metrics
-MetricValue👥 Total Employees1,470✅ Active Employees1,224📉 Attrition Rate16.7%💰 Avg Monthly Income$9,171
+──────────────────────────────────────────────────────────────
+ 🚀  PROJECT OVERVIEW
+──────────────────────────────────────────────────────────────
 
-📈 Dashboard Features
-Headcount by Job Role
-Horizontal bar chart displaying employee distribution across 9 job roles, from Managers (371) down to Human Resources staff (32).
-Attrition Rate by Department
-Comparative bar chart showing attrition across three departments against the 15% company average benchmark line:
+The IBM HR Analytics Dashboard is an advanced workforce
+intelligence solution built in Power BI to help organizations
+make smarter, data-driven HR decisions.
 
-Sales — 18.6% ⚠️ Above average
-Research & Development — 16.4% ⚠️ Above average
-Human Resources — 10.0% ✅ Below average
+  Built for  →  HR Professionals · Recruiters · Managers
+                Business Analysts · Executives
 
-Workforce Distribution by Department
-Donut chart breaking down the total workforce by department:
+  Enables    →  Attrition monitoring & retention strategy
+                Workforce composition analysis
+                Departmental performance tracking
+                Executive-ready reporting & insights
 
-🔵 Research & Development — 65.17%
-🔷 Sales — 30.07%
-⬛ Human Resources — 4.76%
+──────────────────────────────────────────────────────────────
+ 🎯  BUSINESS PROBLEM
+──────────────────────────────────────────────────────────────
 
+Employee attrition directly impacts productivity, hiring costs,
+and operational continuity. This dashboard answers critical
+HR questions:
 
-🔍 Filters
-The dashboard supports interactive filtering by:
+  ▸ Which departments have the highest attrition?
+  ▸ How does overtime influence employee turnover?
+  ▸ Which job roles dominate workforce distribution?
+  ▸ Are there gender-based workforce trends?
+  ▸ Where should retention efforts be prioritized?
 
-Department — Human Resources, Sales, Research & Development
-Overtime — Yes / No
-Gender — Female / Male
+──────────────────────────────────────────────────────────────
+ 📌  CORE KPIs AT A GLANCE
+──────────────────────────────────────────────────────────────
 
+   👥  Total Employees        →   1,470
+   ✅  Active Employees       →   1,224
+   📉  Attrition Rate         →   16.7%
+   💰  Avg Monthly Income     →   $9,171
+   🏢  Departments Covered    →   3
+   💼  Job Roles Tracked      →   9
 
-🛠️ Built With
+──────────────────────────────────────────────────────────────
+ 📊  DASHBOARD FEATURES
+──────────────────────────────────────────────────────────────
 
-Power BI — Dashboard design and interactivity
-IBM HR Analytics Dataset — Publicly available employee dataset
+  1️⃣  EXECUTIVE KPI OVERVIEW
+      Quick-glance strip for total headcount, active employees,
+      attrition rate, and average monthly income.
 
+  ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
 
-📂 Dataset
-This project uses the IBM HR Analytics Employee Attrition & Performance dataset, which includes anonymized records across fields such as:
+  2️⃣  HEADCOUNT BY JOB ROLE
 
-Age, Gender, Department, Job Role
-Monthly Income, Overtime status
-Attrition flag, Years at Company, Job Satisfaction
+      Manager                   ████████████████  371
+      Research Director         ██████░░░░░░░░░░  163
+      Manufacturing Director    ██████░░░░░░░░░░  160
+      Laboratory Technician     █████░░░░░░░░░░░  157
+      Healthcare Representative █████░░░░░░░░░░░  154
+      Sales Executive           █████░░░░░░░░░░░  149
+      Sales Representative      █████░░░░░░░░░░░  145
+      Research Scientist        █████░░░░░░░░░░░  139
+      Human Resources           █░░░░░░░░░░░░░░░   32
 
+  ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
 
-Dataset originally published by IBM Watson Analytics and available on Kaggle.
+  3️⃣  ATTRITION RATE BY DEPARTMENT
 
+      ⚠️  Sales                  18.6%   [ High Risk      ]
+      ⚠️  Research & Development 16.4%   [ Above Average  ]
+      ✅  Human Resources        10.0%   [ Stable         ]
 
-🚀 Getting Started
+      ············· Benchmark: 15.0% ·············
 
-Clone this repository:
+  ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
 
-bash   git clone https://github.com/your-username/ibm-hr-dashboard.git
+  4️⃣  WORKFORCE DISTRIBUTION
 
-Open the .pbix file in Power BI Desktop.
-Refresh the data source to point to your local copy of the dataset.
-Interact with slicers and filters to explore the data.
+      🔵  Research & Development   65.17%
+      🔷  Sales                    30.07%
+      ⬛  Human Resources           4.76%
 
+      → Organization is heavily R&D-oriented. Technical
+        workforce stability is critical for continuity.
 
-💡 Key Insights
+  ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
 
-The overall attrition rate of 16.7% exceeds the industry benchmark of ~12–15%, signalling a retention risk.
-The Sales department has the highest attrition at 18.6%, warranting targeted retention strategies.
-Managers form the largest job role group (371), while Human Resources staff are the smallest (32).
-R&D dominates headcount at 65% of the total workforce.
+  5️⃣  INTERACTIVE FILTERS (SLICERS)
 
+      🏢 Department    →  HR  /  Sales  /  R&D
+      ⏱️ Overtime      →  Yes  /  No
+      🧑 Gender        →  Male  /  Female
 
-📄 License
-This project is licensed under the MIT License.
+──────────────────────────────────────────────────────────────
+ 🛠️  TECH STACK
+──────────────────────────────────────────────────────────────
 
-🙌 Acknowledgements
+   Power BI Desktop   →  Dashboard development & visualization
+   DAX                →  KPI calculations & custom measures
+   Power Query        →  Data cleaning & transformation
+   IBM HR Dataset     →  Workforce analytics data source
 
-IBM for the original HR dataset
-The Power BI community for dashboard design inspiration
+──────────────────────────────────────────────────────────────
+ 🧮  SAMPLE DAX MEASURES
+──────────────────────────────────────────────────────────────
+
+  Attrition Rate:
+  DIVIDE(
+    CALCULATE(COUNTROWS(HR_Data), HR_Data[Attrition] = "Yes"),
+    COUNTROWS(HR_Data)
+  )
+
+  Active Employees:
+  CALCULATE(COUNTROWS(HR_Data), HR_Data[Attrition] = "No")
+
+  Average Monthly Income:
+  AVERAGE(HR_Data[MonthlyIncome])
+
+──────────────────────────────────────────────────────────────
+ ⚙️  PROJECT WORKFLOW
+──────────────────────────────────────────────────────────────
+
+   📥 Raw HR Dataset (CSV)
+        │
+        ▼
+   🔧 Data Cleaning & Transformation   →  Power Query
+        │
+        ▼
+   🗂️  Data Modeling & Relationships
+        │
+        ▼
+   📐 DAX Measures & KPI Calculations
+        │
+        ▼
+   📊 Interactive Visualizations       →  Power BI
+        │
+        ▼
+   📋 Dashboard Insights & Reporting
+
+──────────────────────────────────────────────────────────────
+ 💡  KEY BUSINESS INSIGHTS
+──────────────────────────────────────────────────────────────
+
+  🔴  At 16.7%, attrition exceeds the 12–15% industry
+      benchmark — signalling an active retention challenge.
+
+  🟠  Sales leads attrition at 18.6%, pointing to possible
+      workload pressure or incentive misalignment.
+
+  🔵  65%+ of the workforce is in R&D — making technical
+      talent retention mission-critical.
+
+  🟢  HR maintains the lowest attrition at 10.0%, sitting
+      well below the organizational average.
+
+──────────────────────────────────────────────────────────────
+ 🎯  STRATEGIC RECOMMENDATIONS
+──────────────────────────────────────────────────────────────
+
+  ▸ Launch targeted retention programs in the Sales department
+  ▸ Conduct overtime impact analysis to reduce burnout
+  ▸ Introduce R&D-specific employee satisfaction initiatives
+  ▸ Run monthly attrition KPI reviews for early detection
+  ▸ Develop workforce forecasting models for strategic hiring
+  ▸ Implement pulse surveys in high-attrition departments
+
+──────────────────────────────────────────────────────────────
+ 🌟  FUTURE IMPROVEMENTS
+──────────────────────────────────────────────────────────────
+
+  ○  Predictive attrition model via Python & ML
+  ○  Employee churn risk scoring & classification
+  ○  Diversity & inclusion analytics page
+  ○  Time-series workforce trend analysis
+  ○  Mobile-optimized Power BI layout
+  ○  Automated HR alerts & KPI threshold monitoring
+  ○  Power BI Service cloud deployment
+
+──────────────────────────────────────────────────────────────
+ 🙌  ACKNOWLEDGEMENTS
+──────────────────────────────────────────────────────────────
+
+  IBM Watson Analytics    →  Original HR dataset
+  Kaggle                  →  Dataset hosting
+  Microsoft Power BI      →  Visualization platform & community
+
+──────────────────────────────────────────────────────────────
+ 👨‍💻  AUTHOR
+──────────────────────────────────────────────────────────────
+
+  Mohamed Aashiq
+  B.Sc Data Science Student
+  Aspiring Data Analyst  |  Power BI Enthusiast  |  HR Analytics Learner
+
+  DASHBOARD PREVIEW : 
+
+╔══════════════════════════════════════════════════════════════╗
+   ⭐ Star the repo  •  🍴 Fork it  •  📢 Share feedback
+╚══════════════════════════════════════════════════════════════╝
