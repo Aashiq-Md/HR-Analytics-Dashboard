@@ -193,6 +193,6 @@ B.Sc Data Science Student
 Aspiring Data Analyst | Power BI Enthusiast | HR Analytics Learner
 
 📸 Dashboard Screenshots
-Main Dashboard View: 
+Main Dashboard View: [https://github.com/Aashiq-Md/HR-Analytics-Dashboard/blob/main/IBM%20HR%20Analytics%20Report.png]
 
 ⭐ Star the repo • 🍴 Fork it • 📢 Share feedback
